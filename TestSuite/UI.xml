@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="utility.ExtentReportListener"/>
+    </listeners>
+    <test name="SauceDemoUI">
+        <classes>
+            <class name="ui.SauceDemoUITest"/>
+        </classes>
+    </test>
+</suite>
